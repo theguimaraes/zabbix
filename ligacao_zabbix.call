@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# **************************************************************************
+#
+# Script de ligação via asterisk para alertas enviados pelo Zabbix
+#
+# Ligação realizada pelo canal KHOMP, caso utilize outro canal, necessário
+# alterar no Script abaixo no item CANAL.
+#
+# Autor: Fabricio Guimarães
+#
+# **************************************************************************
+
+CANAL='KHOMP/b1/'               #Canal utilizado para fazer as ligações
+ORIGEM='r_ASTERISK <1234>'      #Ramal de Origem válido, necessário para alguns canais funcionarem
+CONTEXTO='zabbix'               #Cotexto da ligação no Diaplan do Asterisk
+EXTENSAO='zabbix'               #Extensão utilizada para a ligação
+ARQUIVAR=yes                    #Arquivar histórico das ligações (yes or no)
+
+#Salva um arquivo de texto na pasta temporária do Servidor do Zabbix
+echo -en "Channel: $CANAL$1\nCallerID: $ORIGEM\nContext: $CONTEXTO\nExtension: $EXTENSAO\nSetvar: MESSAGE="$2"\nArchive: $ARQUIVAR" >> /tmp/ligacao_zabbix.call
+
+#Da permissão ao arquivo para que o asterisk possa consumir o mesmo
+sudo chown asterisk:asterisk /tmp/ligacao_zabbix.call
+
+#Move o arquivo para o servidor de PABX
+sudo scp /tmp/ligacao_zabbix.call root@IP_SERVIDOR_ASTERISK:/tmp
+
+#Apaga o arquivo temporário do Servidor do Zabbix
+sudo rm -Rf /tmp/ligacao_zabbix.call
