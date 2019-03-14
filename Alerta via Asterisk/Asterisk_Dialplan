@@ -1,0 +1,14 @@
+[zabbix]
+;Simple speech recognition
+exten => zabbix,1,Answer()
+exten => zabbix,n,agi(googletts.agi,${MESSAGE},pt-br)
+exten => zabbix,n,Wait(2)
+exten => zabbix,n,agi(googletts.agi,"Para repetir a mensagem, digite 1. Para mandar o cara do zabbix ir para a esquina, digite 2",pt-br)
+exten => zabbix,n,WaitExten(5)
+exten => zabbix,n,Hangup()
+
+exten => 1,1,agi(googletts.agi,${MESSAGE},pt-br)
+exten => 1,n,Hangup()
+
+exten => 2,1,agi(googletts.agi,"Vai você, seu bobão",pt-br)
+exten => 2,n,Hangup()
