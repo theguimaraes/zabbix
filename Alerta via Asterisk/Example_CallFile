@@ -1,0 +1,6 @@
+Channel: KHOMP/b1/{ALERT.SENDTO}
+CallerID: r_USER <1234>
+Context: zabbix
+Extension: zabbix
+Setvar: MESSAGE="Alerta Zabbix. Problema detectado: {HOST.NAME}. IP: {HOST.CONN}. Alerta: {TRIGGER.NAME}. Verificar com urgência."
+Archive: yes
