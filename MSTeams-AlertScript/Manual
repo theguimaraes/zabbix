@@ -1,6 +1,6 @@
 # Manual de configuração do envido de alertas Zabbix via MS Teams
 
-![MSTeamsAlerts](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/AlertasMSTeams.jpg)
+[MSTeamsAlerts](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/AlertasMSTeams.jpg)
 
 Primeiramente, devemos obter o Incoming Webhook connector e configura-lo para o seu time no MS Teams.
 
