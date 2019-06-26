@@ -1,5 +1,7 @@
 # Manual de configuração do envido de alertas Zabbix via MS Teams
 
+![MSTeamsAlerts](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/AlertasMSTeams.jpg)
+
 Primeiramente, devemos obter o Incoming Webhook connector e configura-lo para o seu time no MS Teams.
 
 Acesse o MS Teams do seu computador, selecione o grupo que deseja configurar para receber os alertas.
@@ -50,6 +52,7 @@ Agora devemos acessar a aba Media do usuário e atribuir a URL do Webhook do MS 
 - Clique em Add para adicionar o usuário criado
 
 Agora que temos o tipo de midia configurado e o usuário criado para receber os alertas, podemos configurar a Action como qualquer outra.
+Lembrando que se o assunto da Action for passado como no exemplo abaixo (PROBLEMA/RESOLVIDO) ele irá fazer a diferenciação de cor, caso dejese algo diferente pode ser necessário modificar o script.
 
 Espero que este manual seja util para você e que traga valor para seus projetos. Qualquer dpuvidas, estou a disposição no Telegram @theguima
 
