@@ -1,6 +1,19 @@
 # Manual de configuração do envido de alertas Zabbix via MS Teams
 
-Primieiramente, devemos copiar o arquivo msteams_alerts.sh para o diretório de alertscripts do seu zabbix.
+Primeiramente, devemos obter o Incoming Webhook connector e configura-lo para o seu time no MS Teams.
+
+Acesse o MS Teams do seu computador, selecione o grupo que deseja configurar para receber os alertas.
+
+- Clique no ... (tres pontinhos ao lado do nome) e em seguida em Connectors.
+- Procure pelo conector Incoming Webhook.
+- Atribua um nome para o mesmo para facilitar de onde está vindo as mensagens. Ex: Zabbix
+- Atribua uma imagem de avatar para o conector para facilitar.
+- Clique em Create
+
+Será gerado uma URL do seu Conector Webhook, salve essa URL que usaremos em breve.
+- Clique em Done para concluir
+
+Agora na parte de configuração do Zabbix, devemos copiar o arquivo msteams_alerts.sh para o diretório de alertscripts do seu zabbix.
 Normalmente ele fica localizado no caminho: /usr/lib/zabbix/alertscripts
 
 Neste arquivo possui comentado o que cada parametro faz e onde pode ser modificado.
