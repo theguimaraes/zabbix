@@ -78,9 +78,9 @@ Agora devemos acessar a aba Media do usuário e atribuir a URL do Webhook do MS 
 Agora que temos o tipo de midia configurado e o usuário criado para receber os alertas, podemos configurar a Action como qualquer outra.
 Lembrando que se o assunto da Action for passado como no exemplo abaixo (PROBLEMA/RESOLVIDO) ele irá fazer a diferenciação de cor, caso dejese algo diferente pode ser necessário modificar o script.
 
-![]ActionOperation](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/ActionOperation.jpg)
+![ActionOperation](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/ActionOperation.jpg)
 
-!{RecoverOperation}(https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/RecoverOperation.jpg)
+![RecoverOperation](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/RecoverOperation.jpg)
 
 
 Espero que este manual seja util para você e que traga valor para seus projetos. Qualquer dpuvidas, estou a disposição no Telegram @theguima
