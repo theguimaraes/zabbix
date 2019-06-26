@@ -16,6 +16,8 @@ Será gerado uma URL do seu Conector Webhook, salve essa URL que usaremos em bre
 Agora na parte de configuração do Zabbix, devemos copiar o arquivo msteams_alerts.sh para o diretório de alertscripts do seu zabbix.
 Normalmente ele fica localizado no caminho: /usr/lib/zabbix/alertscripts
 
+Lembre-se de atibuir permissão de execução para o arquivo (chmod 755 msteams_alerts.sh)
+
 Neste arquivo possui comentado o que cada parametro faz e onde pode ser modificado.
 
 Após copiar o arquivo para seu Zabbix, devemos acessar o FrontEnd para configurar o Media Type para o envio das Actions.
