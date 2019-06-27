@@ -72,7 +72,7 @@ Agora devemos acessar a aba Media do usuário e atribuir a URL do Webhook do MS 
 - Clique em Add para adicionar
 - Clique em Add para adicionar o usuário criado
 
-![UserMedia](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/UserGroup.jpg)
+![UserMedia](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/UserMedia.jpg)
 
 
 Agora que temos o tipo de midia configurado e o usuário criado para receber os alertas, podemos configurar a Action como qualquer outra.
