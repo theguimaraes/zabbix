@@ -6,7 +6,7 @@
 #####           Versao: 1.0                                       #####
 #####           Autor: Fabricio Guimaraes                         #####
 #####           Telegram: @theguima                               #####
-#####           Github: https://github.com/theguima               #####
+#####           Github: https://github.com/theguimaraes           #####
 #####                                                             #####
 #####           Baseado no alerta via Slack abaixo                #####
 #####     https://github.com/ericoc/zabbix-slack-alertscript      #####
