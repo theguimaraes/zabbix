@@ -9,4 +9,4 @@ Estou aberto a novos desafios
 
 Obrigado
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/buttons/NL4BQ97U7W43A)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NL4BQ97U7W43A&source=url)
