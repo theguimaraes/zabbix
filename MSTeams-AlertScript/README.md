@@ -1,3 +1,5 @@
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZC3LMB6XT9ZL2&source=url)
+
 # Manual de configuração do envido de alertas Zabbix via MS Teams
 
 ![AlertasMSTeams](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/AlertasMSTeams.jpg)
