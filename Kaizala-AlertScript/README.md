@@ -1,5 +1,10 @@
+Agradeço sua doação. Obrigado!
+Thank you for your Donation!
+
+Pagseguro
 [![pagseguro](https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/120x53-doar.gif)](https://pag.ae/7V5kzBoGa)
 
+Paypal
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZC3LMB6XT9ZL2&source=url)
 
 ![kaizala](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/KaizalaAlert.jpg)
@@ -145,7 +150,17 @@ Espero que este manual seja util para você e que traga valor para seus projetos
 Obrigado
 
 Fabricio Guimarães
+
 Telegram: @theguima
+
 LinkedIn: theguimaraes
 
+
+Agradeço sua doação. Obrigado!
+Thank you for your Donation!
+
+Pagseguro
+[![pagseguro](https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/120x53-doar.gif)](https://pag.ae/7V5kzBoGa)
+
+Paypal
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZC3LMB6XT9ZL2&source=url)
