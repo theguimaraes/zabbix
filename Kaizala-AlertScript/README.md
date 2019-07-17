@@ -1,8 +1,8 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZC3LMB6XT9ZL2&source=url)
 
-# Manual de configuração do envido de alertas Zabbix via MS Teams
+# Manual de configuração do envido de alertas Zabbix via Kaizala
 
-![AlertasMSTeams](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/AlertasMSTeams.jpg)
+![AlertasMSTeams](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/AlertasMSTeams.jpg)
 
 
 Primeiramente, devemos obter o Incoming Webhook connector e configura-lo para o seu time no MS Teams.
@@ -11,19 +11,19 @@ Acesse o MS Teams do seu computador, selecione o grupo que deseja configurar par
 
 - Clique no ... (tres pontinhos ao lado do nome) e em seguida em Connectors.
 
-![Connectors](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/Connectors.jpg)
+![Connectors](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/Connectors.jpg)
 
 
 - Procure pelo conector Incoming Webhook.
 
-![IncWebhook](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/IncomingWebhook.jpg)
+![IncWebhook](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/IncomingWebhook.jpg)
 
 
 - Atribua um nome para o mesmo para facilitar de onde está vindo as mensagens. Ex: Zabbix
 - Atribua uma imagem de avatar para o conector para facilitar.
 - Clique em Create
 
-![CreateConnector](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/CreateConnector.jpg)
+![CreateConnector](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/CreateConnector.jpg)
 
 
 Será gerado uma URL do seu Conector Webhook, salve essa URL que usaremos em breve.
@@ -85,11 +85,12 @@ Lembrando que se o assunto da Action for passado como no exemplo abaixo (PROBLEM
 ![RecoverOperation](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/img/RecoverOperation.jpg)
 
 
-Espero que este manual seja util para você e que traga valor para seus projetos. Qualquer dpuvidas, estou a disposição no Telegram @theguima
+Espero que este manual seja util para você e que traga valor para seus projetos. Qualquer duvidas, estou a disposição no Telegram @theguima
 
 Obrigado
 
 Fabricio Guimarães
 Telegram: @theguima
+LinkedIn: theguimaraes
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZC3LMB6XT9ZL2&source=url)
