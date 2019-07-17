@@ -88,6 +88,8 @@ Lembre-se de atibuir permissão de execução para o arquivo (chmod 755 msteams_
 
 Neste arquivo Basta substituir o BOT_ACCESS_TOKEN para o que você obteve nas etapas acima.
 
+![BotToken](https://github.com/theguimaraes/zabbix/blob/master/Kaizala-AlertScript/img/KaizalaScriptToken.jpg)
+
 Após copiar o arquivo para seu Zabbix, devemos acessar o FrontEnd para configurar o Media Type para o envio das Actions.
 
 Acesse o menu Administration > Media Types
