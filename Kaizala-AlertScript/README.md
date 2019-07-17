@@ -32,12 +32,7 @@ Agora que temos o grupo criado com sua ID, e os dados do Connector, devemos faze
 Podemos obter a coleção de requisições da API do Kaizala para Postman diretamente do site oficial: https://docs.microsoft.com/en-us/kaizala/connectors/api
 
 
-Nesta parte devemos primeiramente executar a Step1, Step 2 e Step 3 da Autenticaçao via API para obter o AccessToken.
-
-Step 1 - Informamos o celular que irá receber o PIN no "mobileNumber" e o Connector ID que criamos em "applicationId". Será enviado via SMS no celular informado o PIN de acesso (Guarde esse numero)
-
-
-Step 2 - Informamos além do "mobileNumber" e da "applicationId", o "applicationSecret" do connector e o "pin" que chegou no celular. Dessa forma fazemos login da API e recebemos alguns tokens de acesso.
+Nesta parte devemos primeiramente executar a Step 3 da Autenticaçao via API para obter o AccessToken.
 
 Step 3 - Devemos obter a AccessToken principal para fazer as criações necessárias. Devemos passar alguns parametros no cabeçaço da requisição como a imagem abaixo. "applicationId" e "applicationSecret" (Do connector criado), e o Refresh Token que é o "UserToken" do Connector criado.
 
