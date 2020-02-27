@@ -7,7 +7,7 @@ I hope this guide help you with the configuration needed to send Zabbix alerts t
 
 --
 
-Guia em portugues - [AQUI!](https://github.com/theguimaraes/zabbix/MSTeams-AlertScript/README_PT-BR.md)
+Guia em portugues - [AQUI!](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/README_PT-BR.md)
 
 English Guide - [HERE!](https://github.com/theguimaraes/zabbix/blob/master/MSTeams-AlertScript/README_EN-US.md)
 
